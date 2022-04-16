@@ -7,6 +7,7 @@ The aim of the project is to create a convolutional neural network model that ca
 The project is completed with Spyder as the main IDE. The main frameworks used in this project are Numpy, Matplotlib and Tensorflow Keras.
 
 ## 3. Methodology
+The methodology for this project is inspired by a documentation on the official TensorFlow website. You can refer to it [here](https://www.tensorflow.org/tutorials/images/transfer_learning).
 
 ### 3.1. Data Pipeline
 The image data are loaded along with their corresponding labels. The data is first split into train-validation set, with a ratio of 70:30. The validation data is then further split into two portion to obtain some test data, with a ratio of 80:20. The overall train-validation-test split ratio is 70:24:6. No data augmentation is applied as the data size and variation are already sufficient.
